@@ -90,6 +90,22 @@ Returns the total minted number
 
 No arguments
 
+## baseURI
+Returns the base uri of the metadata
+
+No arguments
+
+## balanceOf
+Returns the balance of the account
+
+|Name|Type|Description|
+|--- |---|---|
+|owner|address|The address of the account which you are going to check the balance|
+
+## _creator
+Returns the address of the contract creator
+
+No arguments
 
 
 
