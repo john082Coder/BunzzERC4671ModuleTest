@@ -53,7 +53,7 @@ const Creator = () => {
                                     
                                 }
                             }}>
-                                List
+                                Mint
                             </Button>
                             :
                             <Button className="mx-3 mt-2" variant="dark">
@@ -63,7 +63,7 @@ const Creator = () => {
                                     size="sm"
                                     role="status"
                                     aria-hidden="true"
-                                    />{` `} List
+                                    />{` `} Mint
                             </Button>
                         }
                         <Form.Group className="mb-3" controlId="formBasicEmail">
