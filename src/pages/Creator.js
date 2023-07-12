@@ -30,7 +30,7 @@ const Creator = () => {
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Input  Address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter token id" value={mintAddress} onChange={(val) => setMintAddress(val.target.value)} />
+                            <Form.Control type="email" placeholder="Enter address" value={mintAddress} onChange={(val) => setMintAddress(val.target.value)} />
                         </Form.Group>
                             {!pendingMint ?
                                 <Button className="mx-3 mt-2" variant="dark" onClick={async () => {
