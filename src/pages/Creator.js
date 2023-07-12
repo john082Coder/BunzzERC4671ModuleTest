@@ -29,7 +29,7 @@ const Creator = () => {
                 <Col lg="4" md="4" xs="12">
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label>Input Token Address</Form.Label>
+                            <Form.Label>Input  Address</Form.Label>
                             <Form.Control type="email" placeholder="Enter token id" value={mintAddress} onChange={(val) => setMintAddress(val.target.value)} />
                         </Form.Group>
                             {!pendingMint ?
